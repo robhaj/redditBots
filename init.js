@@ -13,9 +13,9 @@ setInterval(function () {
   fetch(function (comments) {
     if (comments && comments.length) { filter(comments); }
   });
-}, 2500);
+}, 6000);
 
-setInterval(work, 4000);
+setInterval(work, 6000);
 
 function createBots () {
   for(var i = 0; i < bots.length; i++) {

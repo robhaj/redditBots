@@ -6,10 +6,10 @@ exports.enqueue = function (message, bot) {
   // more explicit
   var messageTuple = [message, bot];
   console.log('\n // ---- enqueuing ---- // \n');
-  console.log(messageTuple)
+  console.log(messageTuple);
   messages.push(messageTuple);
-}
+};
 
 exports.next = function () {
   return messages.pop();
-}
+};

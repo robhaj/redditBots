@@ -1,0 +1,9 @@
+[{
+  name     : "GayDadBot",
+  pass     : "galvanize1",
+  message  : 'gay dad 420 approves this message',
+  isParent : undefined,
+  filter   : {
+    parent   : undefined,
+    keywords : ["wrcrump"]}
+}]

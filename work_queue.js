@@ -56,7 +56,7 @@ function storeComment (messageId, botName) {
 
     query.on('error', function (err) { console.error('DATABASE ERROR:', err); });
     query.on('end',   function () {
-      console.log('SUCCESS?')
+      console.log('SUCCESS?');
       done();
     });
   });}

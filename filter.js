@@ -8,7 +8,7 @@ var pg                = require('pg')
 
 var foundReplies = [];
 
-setInterval(checkReplies, 100);
+setInterval(checkReplies, 6000);
 
 module.exports = function (inbound) {
   // console.log('filtering');
